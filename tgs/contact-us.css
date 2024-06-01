@@ -1,0 +1,73 @@
+footer{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    background-color: whitesmoke;
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: space-between;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.footer-container{
+    background: whitesmoke;
+}
+.footer-container .Contactus{
+    margin-right: 30px;
+}
+.footer-container .Contactus .info{
+    width: 40%;
+}
+footer h2 {
+    position: relative;
+    color: #20456f;
+    margin-bottom: 15px;
+}
+footer h2::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+}
+footer p{
+    color: black;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.about-li{
+    list-style: none;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.about-li i{
+    padding:5px;
+    font-weight: bold;
+    color: #20456f;
+}
+.about-li a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.contact-info {
+    padding: 5px;
+}
+.contact-info li {
+    list-style: none;
+}
+.contact-info i {
+    color: #20456f;
+    font-size: 1rem;
+}
+.contact-info a{
+    text-decoration: none;
+    color: #000;
+}
